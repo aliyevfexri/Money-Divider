@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		664E8F1825681F3E0048581F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E8F1725681F3E0048581F /* AppDelegate.swift */; };
 		664E8F1A25681F3E0048581F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E8F1925681F3E0048581F /* SceneDelegate.swift */; };
-		664E8F1C25681F3E0048581F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E8F1B25681F3E0048581F /* ViewController.swift */; };
-		664E8F1F25681F3E0048581F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664E8F1D25681F3E0048581F /* Main.storyboard */; };
 		664E8F2225681F3E0048581F /* Money_Divider.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 664E8F2025681F3E0048581F /* Money_Divider.xcdatamodeld */; };
-		664E8F2425681F410048581F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664E8F2325681F410048581F /* Assets.xcassets */; };
 		664E8F2725681F410048581F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664E8F2525681F410048581F /* LaunchScreen.storyboard */; };
+		664E8F51256838C80048581F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664E8F50256838C80048581F /* Main.storyboard */; };
+		664E8F54256838DB0048581F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664E8F53256838DB0048581F /* Assets.xcassets */; };
+		664E8F5A256838ED0048581F /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E8F58256838EC0048581F /* ResultsViewController.swift */; };
+		664E8F5B256838ED0048581F /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E8F59256838EC0048581F /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		664E8F1425681F3E0048581F /* Money Divider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Divider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		664E8F1725681F3E0048581F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		664E8F1925681F3E0048581F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		664E8F1B25681F3E0048581F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		664E8F1E25681F3E0048581F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		664E8F2125681F3E0048581F /* Money_Divider.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Money_Divider.xcdatamodel; sourceTree = "<group>"; };
-		664E8F2325681F410048581F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		664E8F2625681F410048581F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		664E8F2825681F410048581F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664E8F50256838C80048581F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		664E8F53256838DB0048581F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../.Trash/Tipsy-iOS13-Completed-master 20.58.50/Tipsy/Assets.xcassets"; sourceTree = "<group>"; };
+		664E8F58256838EC0048581F /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		664E8F59256838EC0048581F /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +62,24 @@
 			children = (
 				664E8F1725681F3E0048581F /* AppDelegate.swift */,
 				664E8F1925681F3E0048581F /* SceneDelegate.swift */,
-				664E8F1B25681F3E0048581F /* ViewController.swift */,
-				664E8F1D25681F3E0048581F /* Main.storyboard */,
-				664E8F2325681F410048581F /* Assets.xcassets */,
+				664E8F57256838EC0048581F /* Controllers */,
+				664E8F50256838C80048581F /* Main.storyboard */,
+				664E8F53256838DB0048581F /* Assets.xcassets */,
 				664E8F2525681F410048581F /* LaunchScreen.storyboard */,
 				664E8F2825681F410048581F /* Info.plist */,
 				664E8F2025681F3E0048581F /* Money_Divider.xcdatamodeld */,
 			);
 			path = "Money Divider";
+			sourceTree = "<group>";
+		};
+		664E8F57256838EC0048581F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				664E8F58256838EC0048581F /* ResultsViewController.swift */,
+				664E8F59256838EC0048581F /* CalculatorViewController.swift */,
+			);
+			name = Controllers;
+			path = "../../../../../.Trash/Tipsy-iOS13-Completed-master 20.58.50/Tipsy/Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664E8F51256838C80048581F /* Main.storyboard in Resources */,
 				664E8F2725681F410048581F /* LaunchScreen.storyboard in Resources */,
-				664E8F2425681F410048581F /* Assets.xcassets in Resources */,
-				664E8F1F25681F3E0048581F /* Main.storyboard in Resources */,
+				664E8F54256838DB0048581F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				664E8F2225681F3E0048581F /* Money_Divider.xcdatamodeld in Sources */,
-				664E8F1C25681F3E0048581F /* ViewController.swift in Sources */,
 				664E8F1825681F3E0048581F /* AppDelegate.swift in Sources */,
+				664E8F5A256838ED0048581F /* ResultsViewController.swift in Sources */,
+				664E8F5B256838ED0048581F /* CalculatorViewController.swift in Sources */,
 				664E8F1A25681F3E0048581F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +163,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		664E8F1D25681F3E0048581F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				664E8F1E25681F3E0048581F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		664E8F2525681F410048581F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
